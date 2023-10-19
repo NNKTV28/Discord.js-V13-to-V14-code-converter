@@ -1,0 +1,304 @@
+@font-face {font-family: "Uni Sans Heavy"; src: url("//db.onlinewebfonts.com/t/4f6fb2fa3c231278167b36e966718cbb.eot"); src: url("//db.onlinewebfonts.com/t/4f6fb2fa3c231278167b36e966718cbb.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/4f6fb2fa3c231278167b36e966718cbb.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/4f6fb2fa3c231278167b36e966718cbb.woff") format("woff"), url("//db.onlinewebfonts.com/t/4f6fb2fa3c231278167b36e966718cbb.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/4f6fb2fa3c231278167b36e966718cbb.svg#Uni Sans Heavy") format("svg"); }
+
+* {
+    transition: .2s;
+}
+
+#v13 {
+    background-color: #7289DA;
+    border-radius: 5px;
+    border: 3px solid #4E5D94;
+    resize: none;
+    padding: 10px;
+    font-family: Monaco, monospace;
+    font-size: inherit;
+    line-height: 100%;
+    letter-spacing: -0.05em;
+    word-break: normal;
+    font-size: 15px;
+}
+
+::placeholder {
+    color: #FFFFFF;
+}
+
+#v13:focus {
+    border: 3px solid #23272A;
+}
+
+#v14 {
+    background-color: #7289DA;
+    border-radius: 5px;
+    border: 3px solid #4E5D94;
+    resize: none;
+    padding: 10px;
+    font-family: Monaco, monospace;
+    font-size: inherit;
+    line-height: 100%;
+    letter-spacing: -0.05em;
+    word-break: normal;
+    font-size: 15px;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: #5865F2;
+    border-radius: 100px;
+    margin: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #454FBF;
+    border-radius: 100px;
+}
+
+::-webkit-scrollbar-corner {
+    display: none;
+}
+
+button {
+    background-color: #5865F2;
+    border: none;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #FFFFFF;
+    transition: .2s;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #454FBF;
+    cursor: pointer;
+}
+
+.warning {
+    background-color: yellow;
+    border-radius: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+    margin-top: 10px;
+    font-family: 'Uni Sans Heavy';
+}
+
+a {
+    color: #5865F2;
+    transition: .2s;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #454FBF;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #v13 {
+        width: 100px;
+        height: 100px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 30px;
+    }
+
+    #v14 {
+        width: 100px;
+        height: 100px;
+        margin-left: -40px;
+    }
+
+    .convert {
+        transform: translateY(-90px);
+    }
+
+    .copy {
+        transform: translate3d(-83px, -45px, 0px);
+    }
+
+    .warning {
+        max-width: 300px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #v13 {
+        width: 150px;
+        height: 150px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 30px;
+    }
+
+    #v14 {
+        width: 150px;
+        height: 150px;
+        margin-left: -40px;
+    }
+
+    .convert {
+        transform: translateY(-140px);
+    }
+
+    .copy {
+        transform: translate3d(-83px, -95px, 0px);
+    }
+
+    .warning {
+        max-width: 360px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #v13 {
+        width: 200px;
+        height: 200px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 30px;
+    }
+
+    #v14 {
+        width: 200px;
+        height: 200px;
+        margin-left: -40px;
+    }
+
+    .convert {
+        transform: translateY(-190px);
+    }
+
+    .copy {
+        transform: translate3d(-83px, -145px, 0px);
+    }
+
+    .warning {
+        max-width: 400px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #v13 {
+        width: 350px;
+        height: 350px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 30px;
+    }
+
+    #v14 {
+        width: 350px;
+        height: 350px;
+        margin-left: -40px;
+    }
+
+    .convert {
+        transform: translateY(-330px);
+    }
+
+    .copy {
+        transform: translate3d(-83px, -285px, 0px);
+    }
+
+    .warning {
+        max-width: 480px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #v13 {
+        width: 400px;
+        height: 400px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 30px;
+    }
+
+    #v14 {
+        width: 400px;
+        height: 400px;
+        margin-left: -40px;
+    }
+
+    .convert {
+        transform: translateY(-370px);
+    }
+
+    .copy {
+        transform: translate3d(-83px, -325px, 0px);
+    }
+
+    .warning {
+        max-width: 480px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1300px) {
+    #v13 {
+        width: 500px;
+        height: 500px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 30px;
+    }
+
+    #v14 {
+        width: 500px;
+        height: 500px;
+        margin-left: -40px;
+    }
+
+    .convert {
+        transform: translateY(-480px);
+    }
+
+    .copy {
+        transform: translate3d(-83px, -435px, 0px);
+    }
+
+    .warning {
+        max-width: 480px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1500px) {
+    #v13 {
+        width: 600px;
+        height: 600px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 30px;
+    }
+
+    #v14 {
+        width: 600px;
+        height: 600px;
+        margin-left: -40px;
+    }
+
+    .convert {
+        transform: translateY(-580px);
+    }
+
+    .copy {
+        transform: translate3d(-83px, -535px, 0px);
+    }
+
+    .warning {
+        max-width: 480px;
+    }
+}

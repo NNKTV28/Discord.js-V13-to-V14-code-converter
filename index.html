@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Code converter</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+<body>
+    <script src="./JS/index.js"></script>
+    <div class="light/dark_mode">
+        <button></button>
+    </div>
+
+    <div class="warning">
+        <h3 align="center">WARNING</h3>
+        <p align="center">This website can't convert your code <ins>fully</ins> for example SCREAMING_SNAKE_CASE variables. You must change somethings manually. <a
+                target="_blank"
+                href="https://discordjs.guide/additional-info/changes-in-v14.html#before-you-start">See
+                here</a> for changes in v14.</p>
+    </div>
+    <div class="warning">
+        <h3 align="center">NOTE</h3>
+        <p align="center">Please report bugs in our <a target="_blank" href="https://discord.gg/RQ2NB2V9av">Discord server</a>.
+        </p>
+    </div>
+
+    <div align="center">
+        <textarea placeholder="Enter v13 Code" id="v13"></textarea>
+        <button class="convert" onclick="convert()">Convert</button>
+        <button class="copy" onclick="copy()">Copy</button>
+        <textarea disabled id="v14">Converted v14 Code</textarea>
+    </div>
+</body>
+
+</html>
